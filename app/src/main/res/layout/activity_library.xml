@@ -26,7 +26,7 @@
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/play_song"
+        android:id="@+id/library_playing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -35,7 +35,7 @@
         android:text="@string/library_button1" />
 
     <Button
-        android:id="@+id/buy_song"
+        android:id="@+id/library_payment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -44,7 +44,7 @@
         android:text="@string/library_button2" />
 
     <Button
-        android:id="@+id/playing_now"
+        android:id="@+id/library_playing2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -53,7 +53,7 @@
         android:text="@string/library_button3" />
 
     <Button
-        android:id="@+id/map"
+        android:id="@+id/library_map"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

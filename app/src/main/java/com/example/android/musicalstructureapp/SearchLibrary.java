@@ -11,14 +11,14 @@ public class SearchLibrary extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search_library);
-        Button playSong = (Button) findViewById(R.id.play_song);
-        Button buySong = (Button) findViewById(R.id.buy_song);
-        Button playingNow = (Button) findViewById(R.id.playing_now);
-        Button map = (Button) findViewById(R.id.map);
+        setContentView(R.layout.activity_library);
+        Button toPlaying = (Button) findViewById(R.id.library_playing);
+        Button toPayment = (Button) findViewById(R.id.library_payment);
+        Button toPlaying2 = (Button) findViewById(R.id.library_playing2);
+        Button toMap = (Button) findViewById(R.id.library_map);
 
 
-        playSong.setOnClickListener(new View.OnClickListener() {
+        toPlaying.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent loginIntent = new Intent(SearchLibrary.this, Playing.class);
@@ -26,7 +26,7 @@ public class SearchLibrary extends AppCompatActivity {
             }
         });
 
-        buySong.setOnClickListener(new View.OnClickListener() {
+        toPayment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent loginIntent = new Intent(SearchLibrary.this, Payment.class);
@@ -34,7 +34,7 @@ public class SearchLibrary extends AppCompatActivity {
             }
         });
 
-        playingNow.setOnClickListener(new View.OnClickListener() {
+        toPlaying2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent loginIntent = new Intent(SearchLibrary.this, Playing.class);
@@ -42,7 +42,7 @@ public class SearchLibrary extends AppCompatActivity {
             }
         });
 
-        map.setOnClickListener(new View.OnClickListener() {
+        toMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent loginIntent = new Intent(SearchLibrary.this, MusicMap.class);
