@@ -27,16 +27,18 @@
     <string name="playing_button2">Where is this being reproduced?</string>
 
     <string name="map_title">Music Map</string>
-    <string name="map_text">This view contains a map where the user may
+    <string name="map_text">This view contains a map where the user may view where the song being played is reproduce\n
+        or check out what songs are being played nearby. From this view the user may view the details of a nearby song\n
+        in the library or go back to the song being played.
     </string>
     <string name="map_button1">To library</string>
-    <string name="map_button2">Where is this being reproduced?</string>
+    <string name="map_button2">Currently playing</string>
 
     <string name="payment_title">Payment process</string>
-    <string name="payment_text">This view contains the song currently being reproduced.\n
-        Here the user may return to the library either by going back or by clicking on details from the song being reproduced.\
-        The user may also access the music map to view areas where this song is being reproduced.
+    <string name="payment_text">This view contains the process for carrying out the payment of a song.\n
+        Here the user may return to the library or carry out the purchase.\
+        In either cases, the user will be sent back to the library in the end.
     </string>
-    <string name="payment_button1">To library</string>
-    <string name="payment_button2">Where is this being reproduced?</string>
+    <string name="payment_button1">Back to library</string>
+    <string name="payment_button2">Finish purchase & return to library</string>
 </resources>

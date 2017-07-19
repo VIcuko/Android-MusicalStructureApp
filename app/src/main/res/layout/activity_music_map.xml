@@ -15,6 +15,30 @@
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:layout_gravity="center"
-        android:text="@string/map_title_title"/>
+        android:text="@string/map_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/map_text"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="16sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/map_button1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/map_button2"/>
 
 </LinearLayout>
