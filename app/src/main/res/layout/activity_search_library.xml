@@ -10,49 +10,55 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/library_title"/>
+        android:text="@string/library_title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/library_text"
-    android:textSize="16sp"
-    android:gravity="center"
-    android:layout_marginTop="16dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/library_text"
+        android:textSize="16sp" />
 
     <Button
+        android:id="@+id/play_song"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/library_button1"/>
+        android:text="@string/library_button1" />
 
     <Button
+        android:id="@+id/buy_song"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/library_button2"/>
+        android:text="@string/library_button2" />
+
     <Button
+        android:id="@+id/playing_now"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/library_button3"/>
+        android:text="@string/library_button3" />
+
     <Button
+        android:id="@+id/map"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/library_button4"/>
+        android:text="@string/library_button4" />
 
 </LinearLayout>
