@@ -10,7 +10,7 @@
     <string name="library_text">This view contains the music library. From this view the user may do the following:\n\n
     1. Click on a song, playlist or album and reproduce it\n
     2. Buy a song\n
-    3. View what's being reproduced\n
+    3. View what\'s being reproduced\n
     4. Access the music map\n
     </string>
     <string name="library_button1">Reproduce song</string>
@@ -40,5 +40,5 @@
         In either cases, the user will be sent back to the library in the end.
     </string>
     <string name="payment_button1">Back to library</string>
-    <string name="payment_button2">Finish purchase & return to library</string>
+    <string name="payment_button2">Finish purchase \&amp; return to library</string>
 </resources>
