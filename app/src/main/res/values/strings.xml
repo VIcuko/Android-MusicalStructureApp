@@ -39,6 +39,12 @@
         Here the user may return to the library or carry out the purchase.\
         In either cases, the user will be sent back to the library in the end.
     </string>
+    <string name="payment_api">In order to carry out the payment process, we could use the
+        In-app Billing API which enables carrying out the payment via Google Play.
+        This is a synchronous process that has the advantage that all of the purchase information
+        is stored in Google Play, therefore being accessible at any time in case of having to reset
+        an account.
+    </string>
     <string name="payment_button1">Back to library</string>
     <string name="payment_button2">Finish purchase \&amp; return to library</string>
 </resources>
