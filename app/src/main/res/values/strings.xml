@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Musical Structure App</string>
+
+    <string name="login_title">Login</string>
     <string name="login_text">This is the login view. Here the users will be able to introduce their login information\n
     or login with some social network</string>
     <string name="login_button">Login</string>
-    <string name="library_text">This view contains the music library. From this view the user may do the following:\n
+
+    <string name="library_title">Music library</string>
+    <string name="library_text">This view contains the music library. From this view the user may do the following:\n\n
     1. Click on a song, playlist or album and reproduce it\n
     2. Buy a song\n
     3. View what's being reproduced\n
@@ -13,4 +17,26 @@
     <string name="library_button2">Buy song</string>
     <string name="library_button3">Playing now</string>
     <string name="library_button4">Music Map</string>
+
+    <string name="playing_title">Currently playing</string>
+    <string name="playing_text">This view contains the song currently being reproduced.\n
+        Here the user may return to the library either by going back or by clicking on details from the song being reproduced.\
+        The user may also access the music map to view areas where this song is being reproduced.
+    </string>
+    <string name="playing_button1">To library</string>
+    <string name="playing_button2">Where is this being reproduced?</string>
+
+    <string name="map_title">Music Map</string>
+    <string name="map_text">This view contains a map where the user may
+    </string>
+    <string name="map_button1">To library</string>
+    <string name="map_button2">Where is this being reproduced?</string>
+
+    <string name="payment_title">Payment process</string>
+    <string name="payment_text">This view contains the song currently being reproduced.\n
+        Here the user may return to the library either by going back or by clicking on details from the song being reproduced.\
+        The user may also access the music map to view areas where this song is being reproduced.
+    </string>
+    <string name="payment_button1">To library</string>
+    <string name="payment_button2">Where is this being reproduced?</string>
 </resources>

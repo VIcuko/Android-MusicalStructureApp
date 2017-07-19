@@ -8,10 +8,20 @@
     tools:context="com.example.android.musicalstructureapp.SearchLibrary">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/library_title"/>
+
+    <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/library_text"
-    android:textSize="20sp"
+    android:textSize="16sp"
     android:gravity="center"
     android:layout_marginTop="16dp" />
 
