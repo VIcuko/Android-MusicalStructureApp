@@ -3,4 +3,14 @@
     <string name="login_text">This is the login view. Here the users will be able to introduce their login information\n
     or login with some social network</string>
     <string name="login_button">Login</string>
+    <string name="library_text">This view contains the music library. From this view the user may do the following:\n
+    1. Click on a song, playlist or album and reproduce it\n
+    2. Buy a song\n
+    3. View what's being reproduced\n
+    4. Access the music map\n
+    </string>
+    <string name="library_button1">Reproduce song</string>
+    <string name="library_button2">Buy song</string>
+    <string name="library_button3">Playing now</string>
+    <string name="library_button4">Music Map</string>
 </resources>
