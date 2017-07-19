@@ -10,37 +10,37 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/map_title"/>
+        android:text="@string/map_title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/map_text"
-        android:textSize="20sp"
+        android:layout_marginTop="16sp"
         android:gravity="center"
-        android:layout_marginTop="16sp"/>
+        android:text="@string/map_text"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/map_library"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/map_button1"/>
+        android:text="@string/map_button1" />
 
     <Button
         android:id="@+id/map_playing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/map_button2"/>
+        android:text="@string/map_button2" />
 
 </LinearLayout>

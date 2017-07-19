@@ -10,45 +10,45 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/payment_title"/>
+        android:text="@string/payment_title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/payment_text"
-        android:textSize="20sp"
+        android:layout_marginTop="16sp"
         android:gravity="center"
-        android:layout_marginTop="16sp"/>
+        android:text="@string/payment_text"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/payment_library"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/payment_button1"/>
+        android:text="@string/payment_button1" />
 
     <Button
         android:id="@+id/payment_library2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="@string/payment_button2"/>
+        android:text="@string/payment_button2" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/payment_api"
-        android:textSize="15sp"
+        android:layout_marginTop="16sp"
         android:gravity="center"
-        android:layout_marginTop="16sp"/>
+        android:text="@string/payment_api"
+        android:textSize="15sp" />
 
 </LinearLayout>
